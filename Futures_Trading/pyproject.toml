@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "futures-trading-simulator"
+version = "0.1.0"
+description = "Historical crypto candle storage, backtesting, futures simulation, and optimizer research framework."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+futures-trading = "futures_trading.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

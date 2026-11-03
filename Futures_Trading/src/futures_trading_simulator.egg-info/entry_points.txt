@@ -1,0 +1,2 @@
+[console_scripts]
+futures-trading = futures_trading.cli:main
