@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+work/*.png
+work/*.txt
+work/*.toc.json
+work/tables.json
+work/chunks/
+*.tmp
